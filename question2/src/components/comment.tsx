@@ -9,6 +9,7 @@ export const Comment: React.FC<CommentProps> = ({ addComment }) => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const containerStyle: React.CSSProperties = {
+    
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
